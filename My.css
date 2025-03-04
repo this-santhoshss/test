@@ -218,6 +218,10 @@ nav {
 /* Mobile view (screen widths 768px and below) */
 @media (max-width: 768px) {
 
+    #navContainer {
+        justify-content: space-between;
+    }
+
     /* Show mobile nav button */
     .mobile #navBtn {
         display: block;
